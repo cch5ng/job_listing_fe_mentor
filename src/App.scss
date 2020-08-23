@@ -10,6 +10,7 @@ $darker-grey-cyan: hsl(180, 14%, 20%);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 15px;
 }
 
 header {
@@ -20,17 +21,52 @@ main {
   background-color: $secondary-color;
 }
 
+/* globals */
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+
 /* card */
 .card-container {
   min-height: 170px;
   width: 90%;
   margin: 30px auto;
+  padding: 25px;
   background-color: #fff;
   border-radius: 5px;
 }
 
 .card-featured {
   border-left: 5px solid $primary-color;
+}
+
+/* card-header */
+.card-header-container {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 25px;
+}
+
+/* buttons */
+.button-new {
+
+}
+
+.button-featured {
+
+}
+
+.button-keyword {
+  color: $primary-color;
+  font-weight: 700;
+  background-color: $secondary-color;
+  margin: 15px 15px 0 0;
+  margin-right: 15px;
+  padding: 8px;
+  border-radius: 3px;
+  border: none;
 }
 
 footer {
