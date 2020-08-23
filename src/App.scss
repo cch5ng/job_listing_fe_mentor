@@ -19,7 +19,7 @@ header {
 
 main {
   background-color: $secondary-color;
-  padding: 30px;
+  padding: 50px 30px;
 }
 
 /* globals */
@@ -35,7 +35,7 @@ main {
 .card-container {
   min-height: 170px;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding: 25px;
   background-color: #fff;
   border-radius: 5px;
@@ -47,12 +47,17 @@ main {
 
 /* card-header */
 .logo {
-  background-size: 50px 50px;
+  position: relative;
+  top: -50px;
 }
 
 .card-header-container {
   border-bottom: 1px solid #ccc;
   padding-bottom: 25px;
+}
+
+.card-line1 {
+  margin-top: -50px;
 }
 
 .h2 {
