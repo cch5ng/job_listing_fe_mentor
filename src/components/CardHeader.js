@@ -16,11 +16,11 @@ function CardHeader(props) {
           <Button label="FEATURED" type="featured" />
         )}
       </div>
-      <div>{position}</div>
+      <div className="h1">{position}</div>
       <div className="row">
-          <div>{postedAt}</div>
-          <div>{contract}</div>
-          <div>{location}</div>
+          <div className="summary">{postedAt}</div>
+          <div className="summary">{contract}</div>
+          <div className="summary">{location}</div>
       </div>
       
       <div></div>
