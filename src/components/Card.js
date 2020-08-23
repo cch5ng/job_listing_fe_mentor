@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.scss';
 import CardHeader from './CardHeader';
 import KeywordSection from './KeywordSection';
+import Logo from './Logo';
 
 function Card(props) {
   const {company, logo, isNew, featured, position, role, level, postedAt, contract,
@@ -11,6 +12,7 @@ function Card(props) {
 
   return (
     <div className={containerClass}>
+      <Logo id={id} />
       <CardHeader company={company} logo={logo} isNew={isNew} featured={featured} 
         position={position} postedAt={postedAt} contract={contract}
         location={location} id={id} />

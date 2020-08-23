@@ -17,44 +17,8 @@ function CardHeader(props) {
   const {company, logo, isNew, featured, position, postedAt, contract,
     location, id} = props
 
-  const renderLogo = () => {
-    if (id === 1) {
-      return (<img src={logo1} style={{height: '50px'}} />)
-    }
-    if (id === 2) {
-      return (<img src={logo2} style={{height: '50px'}} />)
-    }
-    if (id === 3) {
-      return (<img src={logo3} style={{height: '50px'}} />)
-    }
-    if (id === 4) {
-      return (<img src={logo4} style={{height: '50px'}} />)
-    }
-    if (id === 5) {
-      return (<img src={logo5} style={{height: '50px'}} />)
-    }
-    if (id === 6) {
-      return (<img src={logo6} style={{height: '50px'}} />)
-    }
-    if (id === 7) {
-      return (<img src={logo7} style={{height: '50px'}} />)
-    }
-    if (id === 8) {
-      return (<img src={logo8} style={{height: '50px'}} />)
-    }
-    if (id === 9) {
-      return (<img src={logo9} style={{height: '50px'}} />)
-    }
-    if (id === 10) {
-      return (<img src={logo10} style={{height: '50px'}} />)
-    }
-  }
-
   return (
     <div className="card-header-container">
-      <div className="logo">
-        {renderLogo()}
-      </div>
       <div className="row card-line1">
         <div className="h2">{company}</div>
         {isNew === true && (
