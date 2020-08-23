@@ -10,6 +10,7 @@ $darker-grey-cyan: hsl(180, 14%, 20%);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
   font-size: 15px;
 }
 
@@ -60,6 +61,7 @@ main {
 
 .button-keyword {
   color: $primary-color;
+  font-size: 13px;
   font-weight: 700;
   background-color: $secondary-color;
   margin: 15px 15px 0 0;
