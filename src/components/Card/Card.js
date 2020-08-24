@@ -1,7 +1,7 @@
 import React from 'react';
-import '../App.scss';
+import './Card.scss';
 import CardHeader from './CardHeader';
-import KeywordSection from './KeywordSection';
+import KeywordSection from '../KeywordSection/KeywordSection';
 import Logo from './Logo';
 
 function Card(props) {

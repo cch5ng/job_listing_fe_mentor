@@ -1,21 +1,10 @@
 import React from 'react';
-import '../App.scss';
-import Button from './Button';
-//import { ReactComponent as Logo1 } from '../images/photosnap.svg';
-import logo1 from '../images/photosnap.svg';
-import logo2 from '../images/manage.svg';
-import logo3 from '../images/account.svg';
-import logo4 from '../images/myhome.svg';
-import logo5 from '../images/loop-studios.svg';
-import logo6 from '../images/faceit.svg';
-import logo7 from '../images/shortly.svg';
-import logo8 from '../images/insure.svg';
-import logo9 from '../images/eyecam-co.svg';
-import logo10 from '../images/the-air-filter-company.svg';
+import './Card.scss';
+import Button from '../Button/Button';
 
 function CardHeader(props) {
-  const {company, logo, isNew, featured, position, postedAt, contract,
-    location, id} = props
+  const {company, isNew, featured, position, postedAt, contract,
+    location} = props
 
   return (
     <div className="card-header-container">

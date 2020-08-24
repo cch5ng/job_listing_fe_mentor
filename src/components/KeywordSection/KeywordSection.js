@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.scss';
-import Button from './Button';
+import '../../App.scss';
+import Button from '../Button/Button';
 
 function KeywordSection(props) {
   const {role, languages, tools, level, id} = props;

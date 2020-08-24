@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.scss';
-import Card from './components/Card';
+import Card from './components/Card/Card';
 import jobs from './data.json';
 import headerMobile from './images/bg-header-mobile.svg';
 import headerDesktop from './images/bg-header-desktop.svg';
@@ -13,7 +13,7 @@ const styles = {
 
 function App() {
   const mediaMatch = window.matchMedia('(min-width: 768px)');
-  const [matches, setMatches] = useState(false); //mediaMatch.matches
+  const [matches, setMatches] = useState(mediaMatch);
 
   useEffect(() => {
     const handler = e => setMatches(e.matches);
@@ -31,8 +31,8 @@ function App() {
       </main>
       <footer>
         <div className="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="http://github.com/cch5ng" target="_blank">Carol Chung</a>.
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+          Coded by <a href="http://github.com/cch5ng" target="_blank" rel="noopener noreferrer">Carol Chung</a>.
         </div>  
       </footer>
     </div>
