@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.scss';
+import './KeywordSection.scss';
 import Button from '../Button/Button';
 
 function KeywordSection(props) {

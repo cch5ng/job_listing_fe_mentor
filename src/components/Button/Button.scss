@@ -1,0 +1,32 @@
+@import '../../styles/shared.scss';
+
+/* buttons */
+.button {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 15px;
+  padding: 8px;
+  border-radius: 25px;
+  border: none;
+}
+
+.button-new {
+  background-color: $primary-color;
+}
+
+.button-featured {
+  background-color: $darker-grey-cyan;
+}
+
+.button-keyword {
+  color: $primary-color;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: $secondary-color;
+  margin: 15px 15px 0 0;
+  margin-right: 15px;
+  padding: 8px;
+  border-radius: 3px;
+  border: none;
+}

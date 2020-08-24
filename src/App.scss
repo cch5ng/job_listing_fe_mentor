@@ -18,36 +18,7 @@ main {
   padding: 50px 30px 10px 30px;
 }
 
-/* buttons */
-.button {
-  color: #fff;
-  font-size: 11px;
-  font-weight: 700;
-  margin-left: 15px;
-  padding: 8px;
-  border-radius: 25px;
-  border: none;
-}
 
-.button-new {
-  background-color: $primary-color;
-}
-
-.button-featured {
-  background-color: $darker-grey-cyan;
-}
-
-.button-keyword {
-  color: $primary-color;
-  font-size: 13px;
-  font-weight: 700;
-  background-color: $secondary-color;
-  margin: 15px 15px 0 0;
-  margin-right: 15px;
-  padding: 8px;
-  border-radius: 3px;
-  border: none;
-}
 
 footer {
   background-color: $primary-color;
@@ -59,34 +30,3 @@ footer {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
-@media (min-width: 1100px) {
-  // .card-container {
-  //   display: flex;
-  //   flex-flow: row nowrap;
-  //   justify-content: flex-start;
-  //   align-items: center;
-  // }
-
-  // .logo {
-  //   position: static;
-  // }
-
-  // img {
-  //   height: 88px;
-  //   margin-right: 20px;
-  // }
-
-  // .card-header-container {
-  //   border-bottom: none;
-  //   padding-bottom: 0;
-  // }
-  
-  // .card-line1 {
-  //   margin-top: 0;
-  // }
-  
-  .keyword-section-container {
-    margin-left: auto;
-  }
-}
