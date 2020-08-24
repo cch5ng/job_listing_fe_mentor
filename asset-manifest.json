@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/job_listing_fe_mentor/static/css/main.573c44fe.chunk.css",
+    "main.js": "/job_listing_fe_mentor/static/js/main.4ed3f913.chunk.js",
+    "main.js.map": "/job_listing_fe_mentor/static/js/main.4ed3f913.chunk.js.map",
+    "runtime-main.js": "/job_listing_fe_mentor/static/js/runtime-main.914890dd.js",
+    "runtime-main.js.map": "/job_listing_fe_mentor/static/js/runtime-main.914890dd.js.map",
+    "static/js/2.c8ddad18.chunk.js": "/job_listing_fe_mentor/static/js/2.c8ddad18.chunk.js",
+    "static/js/2.c8ddad18.chunk.js.map": "/job_listing_fe_mentor/static/js/2.c8ddad18.chunk.js.map",
+    "index.html": "/job_listing_fe_mentor/index.html",
+    "precache-manifest.9f0b96cbb53c6079783a8c497c9e4377.js": "/job_listing_fe_mentor/precache-manifest.9f0b96cbb53c6079783a8c497c9e4377.js",
+    "service-worker.js": "/job_listing_fe_mentor/service-worker.js",
+    "static/css/main.573c44fe.chunk.css.map": "/job_listing_fe_mentor/static/css/main.573c44fe.chunk.css.map",
+    "static/js/2.c8ddad18.chunk.js.LICENSE.txt": "/job_listing_fe_mentor/static/js/2.c8ddad18.chunk.js.LICENSE.txt",
+    "static/media/account.svg": "/job_listing_fe_mentor/static/media/account.9f72c13b.svg",
+    "static/media/bg-header-desktop.svg": "/job_listing_fe_mentor/static/media/bg-header-desktop.6e2f7196.svg",
+    "static/media/bg-header-mobile.svg": "/job_listing_fe_mentor/static/media/bg-header-mobile.6b5ff5a0.svg",
+    "static/media/eyecam-co.svg": "/job_listing_fe_mentor/static/media/eyecam-co.39eaebdf.svg",
+    "static/media/faceit.svg": "/job_listing_fe_mentor/static/media/faceit.76faa79f.svg",
+    "static/media/insure.svg": "/job_listing_fe_mentor/static/media/insure.52b85a50.svg",
+    "static/media/loop-studios.svg": "/job_listing_fe_mentor/static/media/loop-studios.6c50fd74.svg",
+    "static/media/manage.svg": "/job_listing_fe_mentor/static/media/manage.fbe431a9.svg",
+    "static/media/myhome.svg": "/job_listing_fe_mentor/static/media/myhome.e0ad9358.svg",
+    "static/media/photosnap.svg": "/job_listing_fe_mentor/static/media/photosnap.3f34b49c.svg",
+    "static/media/shortly.svg": "/job_listing_fe_mentor/static/media/shortly.45f63772.svg",
+    "static/media/the-air-filter-company.svg": "/job_listing_fe_mentor/static/media/the-air-filter-company.23b515f9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.914890dd.js",
+    "static/js/2.c8ddad18.chunk.js",
+    "static/css/main.573c44fe.chunk.css",
+    "static/js/main.4ed3f913.chunk.js"
+  ]
+}
